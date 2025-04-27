@@ -19,20 +19,13 @@ Training details:
 - **Augmentation**: Random rotation, horizontal flip, normalization
 - **Epochs**: 15
 
-##  Installation
-
-Clone this repository:
-```bash
-git clone https://github.com/your-username/FishClassificationProject.git
-cd FishClassificationProject
-```
 
 Install dependencies:
 ```bash
 pip install torch torchvision matplotlib scikit-learn
 ```
 
-## 🗂️ Dataset Structure
+##  Dataset Structure
 
 Organize your dataset like:
 ```
