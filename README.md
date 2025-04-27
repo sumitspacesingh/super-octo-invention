@@ -1,17 +1,15 @@
 
-# 🐟 Fish Image Classification Project
+# Fish Image Classification Project
 
-## 📋 Project Overview
+##  Project Overview
 
 This project builds a **Fish Species Classifier** using a **custom Convolutional Neural Network (CNN)** from scratch (without using any pretrained models).  
 The network is trained on a dataset of fish images, organized by species classes, to recognize and classify them accurately.
 
-✅ Fully from-scratch custom model  
-✅ Modular code structure (model, training, prediction, dataset handling)  
-✅ Ready for both local machine and Google Colab  
+✅ Modular code structure (model, training, prediction, dataset handling)   
 ✅ Clean results with plotted training curves and confusion matrix
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 - **Input Layer**: Accepts RGB images resized to 128x128
 - **Conv Block 1**: Conv2D (32 filters) → ReLU → MaxPooling
@@ -24,7 +22,7 @@ Training details:
 - **Augmentation**: Random rotation, horizontal flip, normalization
 - **Epochs**: 15
 
-## 📦 Installation
+##  Installation
 
 Clone this repository:
 ```bash
@@ -36,8 +34,6 @@ Install dependencies:
 ```bash
 pip install torch torchvision matplotlib scikit-learn
 ```
-
-> 💡 Works directly in **Google Colab** too.
 
 ## 🗂️ Dataset Structure
 
@@ -56,7 +52,7 @@ FishImgDataset/
 
 Upload it to `/MyDrive/FishImgDataset/` if using Google Drive.
 
-## 🚀 How to Use
+##  How to Use
 
 Train the model:
 ```bash
@@ -69,7 +65,7 @@ This will:
 - Plot curves
 - Show confusion matrix
 
-## 🔮 Predict
+##  Predict
 
 After training, use the predictor:
 ```python
@@ -77,12 +73,12 @@ from predict import cryptic_inf_f as the_predictor
 predicted_class_idx = the_predictor(model, preprocessed_image_tensor, device)
 ```
 
-## 📈 Results
+##  Results
 
 - Training/Validation loss and accuracy plots
 - Confusion matrix for validation
 - Best model automatically saved
 
-## 👨‍💻 Author
+##  Author
 
 Built and organized by Sumit Singh(20221269).
