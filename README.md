@@ -25,7 +25,7 @@ Training details:
 ##  Installation
 For The Data (10 images per class from test set) could be installed from google drive link below:
 https://drive.google.com/drive/folders/1skVk-03lETlwXrmM3KH9u5fL8zw7K13b?usp=sharing
-
+(Because the size of this file is more than 25 MB.
 Clone this repository:
 ```bash
 git clone https://github.com/your-username/FishClassificationProject.git
