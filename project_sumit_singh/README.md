@@ -12,7 +12,7 @@ The network is trained on a dataset of fish images, organized by species classes
 - **Conv Block 1**: Conv2D (32 filters) → ReLU → MaxPooling
 - **Conv Block 2**: Conv2D (64 filters) → ReLU → MaxPooling
 - **Fully Connected Block**: Flatten → Dense (512) → ReLU → Dense (num_classes)
-- 
+  
 ## Project Structure
 ```
 .
@@ -23,18 +23,18 @@ The network is trained on a dataset of fish images, organized by species classes
 └── train.py            # Training loop implementation
 ```
 ## Training details:
--Optimizer: Adam with learning rate 0.001
--Loss function: CrossEntropyLoss with label smoothing (0.1)
--Batch size: 32
--Image size: 128x128
--Data augmentation: Random horizontal flips and rotations
+- Optimizer: Adam with learning rate 0.001
+- Loss function: CrossEntropyLoss with label smoothing (0.1)
+- Batch size: 32
+- Image size: 128x128
+- Data augmentation: Random horizontal flips and rotations
 
 ## Requirements: 
--Python 3.x
--PyTorch
--torchvision
--scikit-learn
--matplotlib
+- Python 3.x
+- PyTorch
+- torchvision
+- scikit-learn
+- matplotlib
 
 ## Install dependencies:
 1. Clone this repository.
