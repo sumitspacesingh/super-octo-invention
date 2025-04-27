@@ -22,21 +22,21 @@ The network is trained on a dataset of fish images, organized by species classes
 ├── predict.py          # Inference functions
 └── train.py            # Training loop implementation
 ```
-Training details:
-Optimizer: Adam with learning rate 0.001
-Loss function: CrossEntropyLoss with label smoothing (0.1)
-Batch size: 32
-Image size: 128x128
-Data augmentation: Random horizontal flips and rotations
+## Training details:
+-Optimizer: Adam with learning rate 0.001
+-Loss function: CrossEntropyLoss with label smoothing (0.1)
+-Batch size: 32
+-Image size: 128x128
+-Data augmentation: Random horizontal flips and rotations
 
-Requirements: 
-Python 3.x
-PyTorch
-torchvision
-scikit-learn
-matplotlib
+## Requirements: 
+-Python 3.x
+-PyTorch
+-torchvision
+-scikit-learn
+-matplotlib
 
-Install dependencies:
+## Install dependencies:
 1. Clone this repository.
 2. Install the required packages:
 ```bash
