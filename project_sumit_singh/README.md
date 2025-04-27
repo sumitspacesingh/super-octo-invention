@@ -14,12 +14,15 @@ fresh water fishes namely: &#39;Bangus&#39;, &#39;Big Head Carp&#39;, &#39;Black
 &#39;Gold Fish&#39;, &#39;Gourami&#39;, &#39;Grass Carp&#39;, &#39;Green Spotted Puffer&#39;, &#39;Indian Carp&#39;, &#39;Indo-Pacific
 Tarpon&#39;, &#39;Jaguar Gapote&#39;, &#39;Janitor Fish&#39;, &#39;Knifefish&#39;, &#39;Long-Snouted Pipefish&#39;, &#39;Mosquito
 Fish&#39;, &#39;Mudfish&#39;, &#39;Mullet&#39;, &#39;Pangasius&#39;, &#39;Perch&#39;, &#39;Scat Fish&#39;, &#39;Silver Barb&#39;, &#39;Silver
-Carp&#39;,&#39;Silver Perch&#39;, &#39;Snakehead&#39;, &#39;Tenpounder&#39;, and &#39;Tilapia&#39;. Output will be the name
+Carp&#39;,&#39;Silver Perch&#39;, &#39;Snakehead&#39;, &#39;Tenpounder&#39;, and &#39;Tilapia&#39;. 
+- Output will be the name
 of the species picture provided.
-Data Source I will be using is taken from Kaggle fish dataset. More specifically, fish
-species that can be found at the Marine Fishing Port in Cabuyao City. For training set
-I will be using 8791 images distributed among the above-named species. For testing
-we will be using 2751 images. We are choosing this model because this model has a
+- Data Source I will be using is taken from Kaggle fish dataset. More specifically, fish
+species that can be found at the Marine Fishing Port in Cabuyao City.
+- For training set
+I will be using 8791 images distributed among the above-named species.
+- For testing
+we will have 2751 images. We are choosing this model because this model has a
 lot of different fish species in a small area which increases interactions between
 these fishes, which in turn making this monitoring of species important.
 
