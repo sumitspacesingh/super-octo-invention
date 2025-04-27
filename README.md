@@ -25,7 +25,8 @@ Training details:
 ##  Installation
 For The Data (10 images per class from test set) could be installed from google drive link below:
 https://drive.google.com/drive/folders/1skVk-03lETlwXrmM3KH9u5fL8zw7K13b?usp=sharing
-(Because the size of this file is more than 25 MB.
+(Because the size of this file is more than 25 MB.)
+Note- If you wish to use these test images for this model then you have to either install it locally and then change the root directory to local path where this folder is present or just set root directory to above mentioned google drive path.
 Clone this repository:
 ```bash
 git clone https://github.com/your-username/FishClassificationProject.git
@@ -51,8 +52,6 @@ FishImgDataset/
     ├── tuna/
     └── trout/
 ```
-
-Upload it to `/MyDrive/FishImgDataset/` if using Google Drive.
 
 ##  How to Use
 
