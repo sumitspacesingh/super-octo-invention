@@ -85,4 +85,4 @@ predicted_class_idx = the_predictor(model, preprocessed_image_tensor, device)
 
 ## 👨‍💻 Author
 
-Built and organized by [Your Name].
+Built and organized by Sumit Singh(20221269).
