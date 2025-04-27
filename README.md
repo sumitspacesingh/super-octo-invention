@@ -23,6 +23,8 @@ Training details:
 - **Epochs**: 15
 
 ##  Installation
+For The Data (10 images per class from test set) could be installed from google drive link below:
+https://drive.google.com/drive/folders/1skVk-03lETlwXrmM3KH9u5fL8zw7K13b?usp=sharing
 
 Clone this repository:
 ```bash
