@@ -82,6 +82,7 @@ predicted_class_idx = the_predictor(model, preprocessed_image_tensor, device)
 - Best model automatically saved
 - Due to larger file Git was unable to upload the final weight file, so here is the link to google drive where you can find it:
   https://drive.google.com/file/d/10n6VG9hOQ-5xbFTib6t8uM82WoIv5vxx/view?usp=sharing
+  (Note- It might show a problem in viewing due to it's large size, so download it)
 
 ##  Author
 
